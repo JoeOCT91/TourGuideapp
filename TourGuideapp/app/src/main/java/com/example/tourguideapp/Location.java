@@ -7,31 +7,42 @@ package com.example.tourguideapp;
  */
 public class Location {
 
-    /** String resource ID for the location Picture */
+    /**
+     * String resource ID for the location Picture
+     */
     private int mLocationPictureId;
 
-    /** String resource ID for the location name */
+    /**
+     * String resource ID for the location name
+     */
     private int mLocationTittleId;
 
-    /** String resource ID for the location address */
+    /**
+     * String resource ID for the location address
+     */
     private int mLocationAddressId;
 
-    /** String resource ID for the location information */
+    /**
+     * String resource ID for the location information
+     */
     private int mLocationInfoId;
 
-    /** Image resource ID for the word */
+    /**
+     * Image resource ID for the word
+     */
     private int mImageResourceId = NO_IMAGE_PROVIDED;
 
-    /** Constant value that represents no image was provided for this word */
+    /**
+     * Constant value that represents no image was provided for this word
+     */
     private static final int NO_IMAGE_PROVIDED = -1;
 
     /**
      * Create a new location object.
      *
      * @param locationPictureId is the string resource ID for the location picture
-     * @param locationTittleId is the string resource Id name of the loaction
+     * @param locationTittleId  is the string resource Id name of the loaction
      * @param locationAddressId is the resource ID for the location address
-     *
      */
     public Location(int locationPictureId, int locationTittleId, int locationAddressId) {
         mLocationPictureId = locationPictureId;
@@ -43,10 +54,9 @@ public class Location {
      * Create a new location object.
      *
      * @param locationPictureId is the string resource ID for the location picture
-     * @param locationTittleId is the string resource Id name of the location
+     * @param locationTittleId  is the string resource Id name of the location
      * @param locationAddressId is the resource ID for the location address
-     * @param locationInfoId is the resource ID for the location information
-     *
+     * @param locationInfoId    is the resource ID for the location information
      */
 
     public Location(int locationPictureId, int locationTittleId, int locationAddressId, int locationInfoId) {
@@ -79,16 +89,10 @@ public class Location {
     }
 
     /**
-     * Returns whether or not there is an image for this word.
+     * Return the address resource ID of the location.
      */
-    public boolean hasImage() {
-        return mImageResourceId != NO_IMAGE_PROVIDED;
-    }
-
-    /**
-     * Return the audio resource ID of the word.
-     */
-    public int getAudioResourceId() {
-        return 0;
+    public int getLocationInfo() {
+        return mLocationInfoId;
     }
 }
+
