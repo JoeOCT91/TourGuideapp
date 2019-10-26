@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Tour Guide app</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="category_land_marks">Land marks</string>
+    <string name="category_museums">Museums</string>
+    <string name="category_restaurants">Restaurants</string>
+    <string name="category_hotels">Hotels</string>
+
+    <string name="address_head">Address</string>
+
+    // Land Marks Strings
+    <string name="giza_necropolis">Giza Necropolis</string>
+    <string name="cairo_tower">Cairo Tower</string>
+    <string name="pyramid_of_djoser">Pyramid of Djoser</string>
+    <string name="khan_elKhalili">Khan el-Khalili</string>
+    <string name="mosque_of_muhammad_ali">Mosque of Muhammad Ali</string>
+    <string name="cairo_citadel">Cairo Citadel</string>
+    <string name="the_hanging_church">The Hanging Church</string>
+    <string name="egyptian_museum">Egyptian Museum</string>
+
+    // Land Marks Address Strings
+    <string name="cairo_tower_address">Zamalek, Cairo Governorate</string>
+    <string name="pyramid_of_djoser_address">Al Giza Desert, Giza Governorate</string>
+    <string name="giza_necropolis_address">Al Haram, Giza Governorate</string>
+    <string name="khan_elKhalili_address">El-Gamaleya, El Gamaliya, Cairo Governorate</string>
+    <string name="mosque_of_muhammad_ali_address">Al Abageyah, El-Khalifa, Cairo Governorate</string>
+    <string name="cairo_citadel_address">Al Abageyah, Qesm Al Khalifah، Cairo Governorate</string>
+    <string name="the_hanging_church_address">Kom Ghorab, Old Cairo, Cairo Governorate</string>
+    <string name="egyptian_museum_address">Tahrir Square rd Tahrir Square, Cairo Governorate</string>
+
+
+    // Land Marks information Strings
+    <string name="cairo_tower_information">The Cairo Tower is a free-standing concrete tower in Cairo,
+        Egypt. At 187 m, it has been the tallest structure in Egypt and North Africa for about 50
+        years. It was the tallest structure in Africa for ten years until 1971, when it was
+        surpassed by Hillbrow Tower in South Africa.
+    </string>
+    <string name="pyramid_of_djoser_address">Al Giza Desert, Giza Governorate</string>
+    <string name="giza_necropolis_address">Al Haram, Giza Governorate</string>
+    <string name="khan_elKhalili_address">El-Gamaleya, El Gamaliya, Cairo Governorate</string>
+    <string name="mosque_of_muhammad_ali_address">Al Abageyah, El-Khalifa, Cairo Governorate</string>
+    <string name="cairo_citadel_address">Al Abageyah, Qesm Al Khalifah، Cairo Governorate</string>
+    <string name="the_hanging_church_address">Kom Ghorab, Old Cairo, Cairo Governorate</string>
+    <string name="egyptian_museum_address">Tahrir Square rd Tahrir Square, Cairo Governorate</string>
+
+    The Museum of Egyptian Antiquities, known commonly as the Egyptian Museum or Museum of Cairo, in Cairo, Egypt, is home to an extensive collection of ancient Egyptian antiquities. It has 120,000 items, with a representative amount on display, the remainder in storerooms.
+
+
+
+
+
+
+</resources>
