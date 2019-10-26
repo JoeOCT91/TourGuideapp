@@ -16,6 +16,9 @@ public class Location {
     /** String resource ID for the location address */
     private int mLocationAddressId;
 
+    /** String resource ID for the location information */
+    private int mLocationInfoId;
+
     /** Image resource ID for the word */
     private int mImageResourceId = NO_IMAGE_PROVIDED;
 
@@ -27,15 +30,31 @@ public class Location {
      *
      * @param locationPictureId is the string resource ID for the location picture
      * @param locationTittleId is the string resource Id name of the loaction
-     * @param LocationAddressId is the resource ID for the location address
+     * @param locationAddressId is the resource ID for the location address
      *
      */
-    public Location(int locationPictureId, int locationTittleId, int LocationAddressId) {
+    public Location(int locationPictureId, int locationTittleId, int locationAddressId) {
         mLocationPictureId = locationPictureId;
         mLocationTittleId = locationTittleId;
-        mLocationAddressId = LocationAddressId;
+        mLocationAddressId = locationAddressId;
     }
 
+    /**
+     * Create a new location object.
+     *
+     * @param locationPictureId is the string resource ID for the location picture
+     * @param locationTittleId is the string resource Id name of the location
+     * @param locationAddressId is the resource ID for the location address
+     * @param locationInfoId is the resource ID for the location information
+     *
+     */
+
+    public Location(int locationPictureId, int locationTittleId, int locationAddressId, int locationInfoId) {
+        mLocationPictureId = locationPictureId;
+        mLocationTittleId = locationTittleId;
+        mLocationAddressId = locationAddressId;
+        mLocationInfoId = locationInfoId;
+    }
 
 
     /**

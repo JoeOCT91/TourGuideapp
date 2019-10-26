@@ -4,11 +4,11 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
+    //Locations category
     <string name="category_land_marks">Land marks</string>
     <string name="category_museums">Museums</string>
     <string name="category_restaurants">Restaurants</string>
     <string name="category_hotels">Hotels</string>
-
     <string name="address_head">Address</string>
 
     // Land Marks Strings
@@ -31,22 +31,44 @@
     <string name="the_hanging_church_address">Kom Ghorab, Old Cairo, Cairo Governorate</string>
     <string name="egyptian_museum_address">Tahrir Square rd Tahrir Square, Cairo Governorate</string>
 
-
     // Land Marks information Strings
     <string name="cairo_tower_information">The Cairo Tower is a free-standing concrete tower in Cairo,
         Egypt. At 187 m, it has been the tallest structure in Egypt and North Africa for about 50
         years. It was the tallest structure in Africa for ten years until 1971, when it was
         surpassed by Hillbrow Tower in South Africa.
     </string>
-    <string name="pyramid_of_djoser_address">Al Giza Desert, Giza Governorate</string>
-    <string name="giza_necropolis_address">Al Haram, Giza Governorate</string>
-    <string name="khan_elKhalili_address">El-Gamaleya, El Gamaliya, Cairo Governorate</string>
-    <string name="mosque_of_muhammad_ali_address">Al Abageyah, El-Khalifa, Cairo Governorate</string>
-    <string name="cairo_citadel_address">Al Abageyah, Qesm Al Khalifah، Cairo Governorate</string>
-    <string name="the_hanging_church_address">Kom Ghorab, Old Cairo, Cairo Governorate</string>
-    <string name="egyptian_museum_address">Tahrir Square rd Tahrir Square, Cairo Governorate</string>
+    <string name="pyramid_of_djoser_information">The Pyramid of Djoser, or Step Pyramid is an archeological
+        remain in the Saqqara necropolis, Egypt, northwest of the city of Memphis. The 6-tier, 4-sided
+        structure is the earliest colossal stone building in Egypt
+    </string>
+    <string name="giza_necropolis_information">The Giza pyramid complex, also called the Giza Necropolis,
+        is the site on the Giza Plateau in Egypt that includes the Great Pyramid of Giza, the Pyramid
+        of Khafre, and the Pyramid of Menkaure, along with their associated pyramid complexes and the
+        Great Sphinx of Giza.
+    </string>
+    <string name="khan_elKhalili_information">Khan el-Khalili is a major souk in the historic center of
+        Islamic Cairo. The bazaar district is one of Cairo's main attractions for tourists and Egyptians
+        alike.
+    </string>
+    <string name="mosque_of_muhammad_ali_information">The Great Mosque of Muhammad Ali Pasha or Alabaster
+        Mosque is a mosque situated in the Citadel of Cairo in Egypt and was commissioned by Muhammad Ali
+        Pasha between 1830 and 1848.
+    </string>
+    <string name="cairo_citadel_information">The Citadel of Cairo or Citadel of Saladin is a medieval
+        Islamic-era fortification in Cairo, Egypt, built by Salah ad-Din and further developed by
+        subsequent Egyptian rulers. It was the seat of government in Egypt and the residence of its
+        rulers for nearly 700 years from the 13th to the 19th centuries.
+    </string>
+    <string name="the_hanging_church_information">Saint Virgin Mary\'s Coptic Orthodox Church, also known
+        as The Hanging Church is one of the oldest churches in Egypt and the history of a church on this
+        site dates to the third century. It belongs to the Coptic Orthodox Church of Alexandria.
+    </string>
+    <string name="egyptian_museum_information">    The Museum of Egyptian Antiquities, known commonly as
+        the Egyptian Museum or Museum of Cairo, in Cairo, Egypt, is home to an extensive collection of
+        ancient Egyptian antiquities. It has 120,000 items, with a representative amount on display,
+        the remainder in storerooms.
+    </string>
 
-    The Museum of Egyptian Antiquities, known commonly as the Egyptian Museum or Museum of Cairo, in Cairo, Egypt, is home to an extensive collection of ancient Egyptian antiquities. It has 120,000 items, with a representative amount on display, the remainder in storerooms.
 
 
 
