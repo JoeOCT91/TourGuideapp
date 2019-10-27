@@ -1,5 +1,7 @@
 package com.example.tourguideapp;
 
+import android.content.res.Resources;
+
 /**
  * {@link Location} represents a vocabulary word that the user wants to learn.
  * It contains resource IDs for the default translation, Miwok translation, audio file, and
@@ -28,9 +30,9 @@ public class Location {
     private int mLocationInfoId;
 
     /**
-     * Image resource ID for the word
+     * String resource ID for the location category
      */
-    private int mImageResourceId = NO_IMAGE_PROVIDED;
+    private int mCategory;
 
     /**
      * Constant value that represents no image was provided for this word
@@ -59,11 +61,13 @@ public class Location {
      * @param locationInfoId    is the resource ID for the location information
      */
 
-    public Location(int locationPictureId, int locationTittleId, int locationAddressId, int locationInfoId) {
+    public Location(int locationPictureId, int locationTittleId, int locationAddressId,
+                    int locationInfoId, int category) {
         mLocationPictureId = locationPictureId;
         mLocationTittleId = locationTittleId;
         mLocationAddressId = locationAddressId;
         mLocationInfoId = locationInfoId;
+        mCategory = category;
     }
 
 
@@ -94,5 +98,17 @@ public class Location {
     public int getLocationInfo() {
         return mLocationInfoId;
     }
+
+    /**
+     * Return the category resource ID of the location.
+     */
+    public String getLocationCategory() {
+
+        String category = Resources.getSystem().getString(mCategory);
+
+
+        return category ;
+    }
+
 }
 

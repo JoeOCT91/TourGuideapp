@@ -69,6 +69,19 @@
         the remainder in storerooms.
     </string>
 
+    //Museum Strings
+    <string name="museum_of_islamic_art">Museum of Islamic Art</string>
+    <string name="museum_of_islamic_art_address">Port Said, St، El-Darb El-Ahmar, Cairo Governorate</string>
+    <string name="museum_of_islamic_art_info">The Museum of Islamic Art in Cairo, Egypt is considered
+        one of the greatest in the world, with its exceptional collection of rare woodwork and plaster
+        artefacts, as well as metal, ceramic, glass, crystal, and textile objects of all periods, from
+        all over the Islamic world
+    </string>
+
+
+
+
+
 
 
 

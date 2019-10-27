@@ -17,6 +17,7 @@ import java.util.ArrayList;
 public class HotelsFragment extends Fragment {
 
 
+
     public HotelsFragment() {
         // Required empty public constructor
     }
